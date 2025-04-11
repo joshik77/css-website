@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>PROJECT</title>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <div class="container mx-auto bg-slate-100">
+    <nav class="flex justify-between items-center py-4 px-6">
+      <div class="h-16 w-16">
+        <a href="#"><img class="rounded-full" src="https://picsum.photos/200" alt="logo"></a>
+      </div>
+      <ul class="flex space-x-6">
+        <li><a class="text-fuchsia-700 hover:text-cyan-600 font-medium" href="#">Services</a></li>
+        <li><a class="text-fuchsia-700 hover:text-cyan-600 font-medium" href="#">Prices</a></li>
+        <li><a class="text-fuchsia-700 hover:text-cyan-600 font-medium" href="#">About</a></li>
+        <li><a class="text-fuchsia-700 hover:text-cyan-600 font-medium" href="#">Contact</a></li>
+      </ul>
+      <button class="bg-cyan-500 p-3 rounded-full text-white hover:bg-cyan-600 shadow-md font-medium">Sign Up</button>
+    </nav>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="container mx-auto mt-12 flex flex-col md:flex-row items-center px-6">
+    <div class="md:w-1/2 text-center md:text-left">
+      <p class="mt-6 font-medium">
+        At [Your Brand Name], we craft visually captivating and user-friendly websites that blend creativity with functionality. Whether you're a startup, a small business, or an established brand, our designs are tailored to match your goals and engage your audience.
+      </p>
+      <button class="bg-emerald-500 text-white py-2 px-6 rounded-full mt-6 font-medium hover:bg-emerald-600">Get Started</button>
+    </div>
+    <div class="md:w-1/2">
+      <img class="mx-auto" src="./assets/hero.png" alt="Hero Image">
+    </div>
+  </div>
+
+  <!-- Services Section -->
+  <div class="container mx-auto mt-12 flex flex-col md:flex-row text-center px-6 space-y-8 md:space-y-0 md:space-x-4">
+    <div class="md:w-1/3">
+      <h1 class="text-2xl font-bold mb-2">Web Development</h1>
+      <img src="./assets/website.svg" alt="Web Dev" class="mx-auto mb-2">
+      <p>We believe great design is more than visuals—it’s about a seamless user journey. Every scroll, interaction, and pixel is crafted to convert visitors into loyal users.</p>
+    </div>
+    <div class="md:w-1/3">
+      <h1 class="text-2xl font-bold mb-2">Mobile Development</h1>
+      <img src="./assets/mobile.svg" alt="Mobile Dev" class="mx-auto mb-2">
+      <p>We build powerful, scalable mobile apps that solve real problems and delight users—whether you’re launching on iOS, Android, or both.</p>
+    </div>
+    <div class="md:w-1/3">
+      <h1 class="text-2xl font-bold mb-2">Design</h1>
+      <img src="./assets/design.svg" alt="Design" class="mx-auto mb-2">
+      <p>We create beautiful, user-centric mobile and web designs focused on engagement, retention, and conversion—perfect for new or refreshed products.</p>
+    </div>
+  </div>
+
+  <!-- Pricing Section -->
+  <div class="container mx-auto mt-12 px-6">
+    <div class="text-center mb-6">
+      <h1 class="font-bold text-3xl">Pricing</h1>
+      <p class="mt-2 text-gray-600">Flexible pricing for your app's needs—whether you're a startup or a brand looking to scale.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      
+      <!-- Basic Plan -->
+      <div class="bg-emerald-100 border-4 border-dashed border-emerald-300 p-6 rounded-xl hover:bg-emerald-200">
+        <h1 class="text-4xl font-bold text-center mb-2">$129</h1>
+        <h2 class="text-xl text-emerald-800 font-semibold text-center mb-4">Basic</h2>
+        <ul class="space-y-2">
+          <li class="flex items-start"><svg class="w-6 h-6 mr-2 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Ideal for MVPs or personal projects</li>
+          <li class="flex items-start"><svg class="w-6 h-6 mr-2 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Basic responsive design</li>
+          <li class="flex items-start"><svg class="w-6 h-6 mr-2 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> 3-day delivery</li>
+        </ul>
+      </div>
+
+      <!-- Advance Plan -->
+      <div class="bg-emerald-100 border-4 border-dashed border-emerald-300 p-6 rounded-xl hover:bg-emerald-200">
+        <h1 class="text-4xl font-bold text-center mb-2">$250</h1>
+        <h2 class="text-xl text-emerald-800 font-semibold text-center mb-4">Advance</h2>
+        <ul class="space-y-2">
+          <li class="flex items-start"><svg class="w-6 h-6 mr-2 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Up to 5 custom-designed screens</li>
+          <li class="flex items-start"><svg class="w-6 h-6 mr-2 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Mobile-first design</li>
+          <li class="flex items-start"><svg class="w-6 h-6 mr-2 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Delivery in 5–7 business days</li>
+        </ul>
+      </div>
+
+      <!-- Premium Plan -->
+      <div class="bg-emerald-100 border-4 border-dashed border-emerald-300 p-6 rounded-xl hover:bg-emerald-200">
+        <h1 class="text-4xl font-bold text-center mb-2">$329</h1>
+        <h2 class="text-xl text-emerald-800 font-semibold text-center mb-4">Premium</h2>
+        <ul class="space-y-2">
+          <li class="flex items-start"><svg class="w-6 h-6 mr-2 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Unlimited custom screens</li>
+          <li class="flex items-start"><svg class="w-6 h-6 mr-2 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Priority support</li>
+          <li class="flex items-start"><svg class="w-6 h-6 mr-2 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Delivery in 3–5 business days</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Recent Updates -->
+  <div class="container mx-auto mt-12 px-6">
+    <div class="text-center mb-6">
+      <h1 class="text-xl text-gray-500">RECENT UPDATES</h1>
+      <h1 class="text-5xl font-bold">FEATURED STORIES</h1>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="bg-gray-200 rounded-2xl hover:bg-blue-100 p-4">
+        <img class="w-full rounded" src="https://picsum.photos/200" alt="Google Rankings">
+        <h1 class="text-center text-xl text-gray-600 mt-2">Google Rankings</h1>
+        <p class="text-sm">In the vast digital world, visibility is everything...</p>
+      </div>
+      <div class="bg-gray-200 rounded-2xl hover:bg-blue-100 p-4">
+        <img class="w-full rounded" src="https://picsum.photos/200" alt="Communication">
+        <h1 class="text-center text-xl text-gray-600 mt-2">Communication</h1>
+        <p class="text-sm">We believe that great content sparks conversation...</p>
+      </div>
+      <div class="bg-gray-200 rounded-2xl hover:bg-blue-100 p-4">
+        <img class="w-full rounded" src="https://picsum.photos/200" alt="Remote Working">
+        <h1 class="text-center text-xl text-gray-600 mt-2">Remote Working</h1>
+        <p class="text-sm">Work is no longer a place—it’s a mindset...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-blue-300 py-12 mt-16">
+    <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0">
+      <div>
+        <h3 class="font-bold text-white text-xl">EXPLORE MORE ABOUT US</h3>
+        <ul class="text-white space-y-1 mt-2">
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="text-white space-y-1">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div class="flex space-x-4">
+        <!-- Facebook -->
+        <a href="#" aria-label="Facebook">
+          <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 
+            1.325 24h11.495v-9.294H9.692v-3.622h3.128V8.413c0-3.1 
+            1.893-4.788 4.659-4.788 1.325 0 2.464.099 
+            2.796.143v3.24l-1.918.001c-1.504 
+            0-1.796.715-1.796 1.763v2.31h3.587l-.467 
+            3.622h-3.12V24h6.116C23.407 24 24 23.407 
+            24 22.675V1.325C24 .593 23.407 0 22.675 0z"/>
+          </svg>
+        </a>
+      
+        <!-- Twitter -->
+        <a href="#" aria-label="Twitter">
+          <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 01-3.14 
+            1.53A4.48 4.48 0 0022.4.36a9.03 
+            9.03 0 01-2.88 1.1A4.52 4.52 0 
+            0016.1 0c-2.5 0-4.5 2.1-4.5 
+            4.7 0 .36.03.72.1 1.05A12.8 
+            12.8 0 013 1.1a4.6 4.6 0 00-.6 
+            2.4c0 1.6.8 3 2.1 3.9a4.24 
+            4.24 0 01-2-.56v.06c0 2.2 1.5 
+            4.1 3.6 4.5a4.32 4.32 0 
+            01-2 .07 4.5 4.5 0 004.2 
+            3.2A9.05 9.05 0 012 
+            19.6a12.8 12.8 0 007 2"/>
+          </svg>
+        </a>
+      
+        <!-- Instagram -->
+        <a href="#" aria-label="Instagram">
+          <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2.2c3.2 0 3.6.01 4.9.07 1.2.06 1.9.27 
+            2.4.45.6.24 1 .54 1.44.98.44.44.74.84.98 
+            1.44.18.5.39 1.2.45 2.4.06 1.3.07 1.7.07 
+            4.9s-.01 3.6-.07 4.9c-.06 1.2-.27 1.9-.45 
+            2.4-.24.6-.54 1-1 1.44-.44.44-.84.74-1.44 
+            .98-.5.18-1.2.39-2.4.45-1.3.06-1.7.07-4.9.07s-3.6
+            -.01-4.9-.07c-1.2-.06-1.9-.27-2.4-.45-.6-.24-1
+            -.54-1.44-.98-.44-.44-.74-.84-.98-1.44-.18-.5
+            -.39-1.2-.45-2.4C2.21 15.6 2.2 15.2 2.2 
+            12s.01-3.6.07-4.9c.06-1.2.27-1.9.45-2.4.24-.6.54-1 
+            .98-1.44.44-.44.84-.74 1.44-.98.5-.18 1.2-.39 
+            2.4-.45C8.4 2.21 8.8 2.2 12 2.2zm0 
+            1.8c-3.1 0-3.5.01-4.7.07-.96.04-1.5.2-1.8.33-.45.17-.77.38-1.12.73-.35.35-.56.67-.73 
+            1.12-.13.3-.3.9-.33 
+            1.8-.06 1.2-.07 1.6-.07 
+            4.7s.01 3.5.07 4.7c.04.96.2 1.5.33 
+            1.8.17.45.38.77.73 
+            1.12.35.35.67.56 1.12.73.3.13.9.3 
+            1.8.33 1.2.06 1.6.07 
+            4.7.07s3.5-.01 4.7-.07c.96-.04 1.5-.2 
+            1.8-.33.45-.17.77-.38 
+            1.12-.73.35-.35.56-.67.73-1.12.13-.3.3-.9.33-1.8.06-1.2.07-1.6.07-4.7s-.01-3.5
+            -.07-4.7c-.04-.96-.2-1.5-.33-1.8-.17-.45-.38-.77-.73-1.12-.35-.35-.67-.56-1.12-.73-.3-.13-.9-.3-1.8-.33-1.2-.06-1.6-.07-4.7-.07zM12 
+            5.8a6.2 6.2 0 100 12.4 6.2 6.2 0 000-12.4zm0 
+            10.2a4 4 0 110-8 4 4 0 010 8zm6.4-11.6a1.44 
+            1.44 0 11-2.88 0 1.44 1.44 0 012.88 0z"/>
+          </svg>
+        </a>
+      </div>
+      
+    </div>
+  </footer>
+
+</body>
+</html>
